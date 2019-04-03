@@ -20,10 +20,13 @@ const calcArrival = (ftt, frq) => {
     let now = moment().unix() / 60
     let nextDep = moment(ftt, 'HH:mm').unix() / 60
 
+        //function not done yet:
     if (now > nextDep) {
-    while () {
-        
-    }
+        // if (now > nextDep) {
+        //     nextDep = nextDep + parseInt(frq)
+        // } else if (now < nextDep) {
+            
+        // }
     } 
 
     else if ( now < nextDep) {
