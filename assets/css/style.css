@@ -1,0 +1,52 @@
+body {
+background-image: url("../images/chimmy.jpg")
+}
+ .wrapper { 
+    background-color: rgb(247, 247, 141);
+    margin: 5px 250px 5px 250px;
+    color: black;
+    border: 1px solid black;
+}
+
+.trainDisp {
+    background-color:  rgb(247, 247, 141);
+    border: 1px solid black;
+}
+
+.hdr {
+    border: 5px dotted black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: peachpuff;
+    text-align: center;
+    padding: 30px;
+}
+.hdr2{
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    background-color: cornflowerblue;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+}
+h5 {
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#Submit {
+    background-color: rgb(101, 241, 101);
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 425px;
+  
+}
+#Submit:hover {
+    background-color: rgb(9, 163, 9);
+}

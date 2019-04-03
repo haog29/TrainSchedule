@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="hdr">
+        <h1>Chimmy's Train Schedule</h1>
+        <h5>LRT Line 1 or Line 2</h5>
+    </div>
+    <br>
+    <br>
+    <h5 class="hdr2">Current Train Schedule</h5>
+    <div class="container">
+      
+     <table class="trainDisp">
+
+     </table>
+          
+    </div>
+    <br>
+    <br>
+
+
+
+    <h5 class="hdr2">ADD TRAIN</h5>
+
+    <div class="wrapper">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="trainName" type="text" class="validate">
+                        <label for="trainName">Train Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="Destination" type="text" class="validate">
+                        <label for="Destination">Destination</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="firstTrainTime" type="time" class="validate">
+                        <label for="firstTrainTime">First Train Time </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="frequency" type="text" class="validate">
+                        <label for="frequency">Frequency(min)</label>
+                    </div>
+                </div>
+                <button id="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+
+</body>
+
+</html>
